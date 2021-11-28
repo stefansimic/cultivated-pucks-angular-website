@@ -1,0 +1,66 @@
+.navbar-container {
+  height: 100%;
+}
+
+.navigation {
+    background-color: #22303F;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border: 2px solid black;
+
+    // sticky
+    position: -webkit-sticky;
+    position : sticky;
+    top : 0;
+}
+
+a {
+  color: #D0DEEA;
+  margin: 0;
+  margin-left: 1%;
+
+  font-size: 14px;
+
+  @media screen and (min-width: 1024px) {
+    font-size: 24px;
+  }
+}
+
+.links {
+    margin-left: 5%;
+    margin-right: 5%;
+
+    @media screen and (min-width: 1024px) {
+      display: flex;
+  }
+}
+
+.left {
+  text-align: start;
+  flex-basis: 40%;
+
+
+  @media screen and (max-width: 1024px) {
+    text-align: center;
+  }
+}
+
+.right {
+  text-align: end;
+  flex-basis: 60%;
+
+  @media screen and (max-width: 1024px) {
+    text-align: center;
+  }
+}
+
+.is-active {
+  color: rgb(187, 55, 55);
+}

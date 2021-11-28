@@ -1,0 +1,32 @@
+<div class="view">
+    <div class="text-div">
+        <img src="assets/roadmap/roadmap_visual.png" alt="Roadmap" class="roadmap">
+
+        <p>Everytime we hit a set goal in CP-Sales, we're going to start working on the tasks listed below.</p>
+    <!--  <ul>
+            <li>10% (500 CP's): Finish and release the "Day it all begun" special drop combined with the release of more background knowledge on how Pucks originated.</li>
+            <li>20% (1000 CP's): Starting a vote inside our community to select a Non-Profit organization, which we will be donating Fiat worth 5 ETH to. (With proof obviously ;) ) Creating a special drop connected to the donation theme. Half of it will be given away for free to CP-holders while the other half will be sold normally.</li>
+            <li>30% (1500 CP's): Giving away 10 Puck-eggs. Eggs can be handed in with a Puck-wish which allows the owner to write a list on how his dream Puck looks like. After that the Puck will be designed, released and sent back to that person. Details will follow as soon as we get there.</li>
+            <li>40% (2000 CP's): Another donation… Realization of a club system. Every Puck holder that wants to be a member should be able to join.</li>
+            <li>50% (2500 CP's): Creating "Halfway there" Merch and giving it away for free inside the club under fair circumstances. </li>
+            <li>60% (3000 CP's): Will be revealed as soon as we hit 50 %.</li>
+            <li>70% (3500 CP's): Not defined yet. Will be chosen with the community if the project becomes a success.</li>
+            <li>80% (4000 CP's): Will be revealed as soon as we hit 50 %.</li>
+            <li>90% (4500 CP's): Not defined yet. Will be chosen with the community if the project becomes a success.</li>
+            <li>100% (5000 CP's): Will be revealed as soon as we hit 50 %.</li>
+        </ul>
+        -->  
+
+       <div class="list">
+           <div *ngFor="let item of listItems">
+               <div lass="listitem">
+                    <b>
+                        <span class="amount">  {{item.amountOfPucksText}} </span>
+                    </b>
+                    <span class="text"> {{item.description}}</span>
+                    <br/>
+                </div>
+           </div>
+       </div>
+    </div>
+</div>

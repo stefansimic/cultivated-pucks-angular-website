@@ -1,0 +1,26 @@
+.footer {
+    bottom: 0;
+    width: 100%;
+    //height: 200px;
+    background: rgb(16,23,31);
+    background: linear-gradient(180deg, rgba(16,23,31,1) 0%, rgba(34,48,63,1) 4%);
+    text-align: center;
+
+    position: relative;
+    color: #D0DEEA;
+ }
+
+ .view-without-color {
+     margin-bottom: 0px;
+     padding: 15px;
+
+     display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+ }
+
+ a {
+    color: #D0DEEA;
+    margin: 0;
+  }
